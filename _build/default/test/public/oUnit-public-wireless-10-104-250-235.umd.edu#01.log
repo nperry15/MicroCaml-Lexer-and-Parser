@@ -1,0 +1,58 @@
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:0:public_nothing.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:0:public_nothing is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:0:public_nothing.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:2:public_mutop_simple_def_and_let.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:2:public_mutop_simple_def_and_let is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:2:public_mutop_simple_def_and_let.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:4:public_expr_apply.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:4:public_expr_apply is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:4:public_expr_apply.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:6:public_expr_let_if.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:6:public_expr_let_if is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:6:public_expr_let_if.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:9:public_expr_nested_let.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:9:public_expr_nested_let is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:9:public_expr_nested_let.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:11:public_rec_function_factorial.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Test public:11:public_rec_function_factorial exited with an error.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: P4a.TokenTypes.InvalidInputException("mutop") in test public:11:public_rec_function_factorial.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Raised at P4a__Parser.parse_mutop in file "src/parser.ml", line 209, characters 9-46
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from Dune__exe__Public.public_rec_function_factorial in file "test/public/public.ml", line 92, characters 16-118
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: 
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:11:public_rec_function_factorial.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:12:public_expr_simple_equal.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:12:public_expr_simple_equal is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:12:public_expr_simple_equal.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:15:public_expr_simple_mult.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:15:public_expr_simple_mult is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:15:public_expr_simple_mult.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:17:public_expr_simple_sum.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:17:public_expr_simple_sum is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:17:public_expr_simple_sum.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:19:public_expr_single_bool.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:19:public_expr_single_bool is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:19:public_expr_single_bool.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:21:public_expr_single_if.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:21:public_expr_single_if is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:21:public_expr_single_if.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:23:public_expr_single_notequal.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Test public:23:public_expr_single_notequal exited with an error.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: P4a.TokenTypes.InvalidInputException("Expected Tok_Equal from input [Tok_NotEqual, Tok_Int(2)], got Tok_NotEqual") in test public:23:public_expr_single_notequal.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Raised at P4a__Parser.match_token in file "src/parser.ml", line 12, characters 12-204
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from P4a__Parser.parse_equal in file "src/parser.ml", line 187, characters 61-94
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from P4a__Parser.parse_and in file "src/parser.ml", line 111, characters 24-41
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from P4a__Parser.parse_or in file "src/parser.ml", line 104, characters 24-39
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from Dune__exe__Public.public_expr_single_notequal in file "test/public/public.ml", line 154, characters 16-50
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 E: 
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:23:public_expr_single_notequal.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:24:public_expr_single_not.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:24:public_expr_single_not is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:24:public_expr_single_not.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:26:public_expr_single_or.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:26:public_expr_single_or is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:26:public_expr_single_or.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Start test public:29:public_err_mutop_nested_def.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: Test public:29:public_err_mutop_nested_def is successful.
+2021-11-17T04:37:29+00:00 wireless-10-104-250-235.umd.edu#01 I: End test public:29:public_err_mutop_nested_def.
